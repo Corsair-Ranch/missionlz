@@ -19,7 +19,7 @@ variable "metadata_host" {
 variable "location" {
   description = "The Azure region for most Mission LZ resources"
   type        = string
-  default     = "East US"
+  default     = "usgovarizona"
 }
 
 variable "tags" {
